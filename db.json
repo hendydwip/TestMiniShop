@@ -1,0 +1,72 @@
+{
+  "products":[
+    {
+      "id": 1,
+      "name": "Product 1",
+      "price": 5,
+      "description": "Type 1",
+      "category": "Unrelease",
+      "image": "https://i.pinimg.com/originals/64/e0/b5/64e0b5c921ae3f0d08cd0bd280d76d06.gif"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "price": 8,
+      "description": "Type 2",
+      "category": "Unrelease",
+      "image": "https://media1.tenor.com/images/2a6682e80c302a372472fe02fbdf34c5/tenor.gif?itemid=12386155"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "price": 10,
+      "description": "Type 3",
+      "category": "Release",
+      "image": "https://res.cloudinary.com/teepublic/image/private/s--ZtJcfE8C--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1539322976/production/designs/3305192_0.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "price": 7,
+      "description": "Type 4",
+      "category": "Release",
+      "image": "https://res.cloudinary.com/teepublic/image/private/s--OdIS2BPU--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_f5b6b6,e_outline:48/co_f5b6b6,e_outline:inner_fill:48/co_ffffff,e_outline:48/co_ffffff,e_outline:inner_fill:48/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1538760681/production/designs/3265593_0.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "price": 4,
+      "description": "Type 5",
+      "category": "Unrelease",
+      "image": "https://i.pinimg.com/originals/5d/48/3a/5d483a5dc22a42a416a2390a903a8932.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "price": 12,
+      "description": "Type 6",
+      "category": "Unrelease",
+      "image": "https://thumbs.gfycat.com/IdioticRepulsiveBorer-size_restricted.gif"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "price": 11,
+      "description": "Type 7",
+      "category": "Release",
+      "image": "https://www.pngfind.com/pngs/m/286-2861333_ftestickers-chocobo-bird-pixel-gaming-finalfantasy-final-fantasy.png"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "price": 9,
+      "description": "Type 8",
+      "category": "Release",
+      "image": "https://i.pinimg.com/originals/c6/d5/41/c6d541e233fdea39aef7b10b40982d35.jpg"
+    }  
+  ],
+  "user":{
+    "username": "admin",
+    "password": "admin"
+  }
+}

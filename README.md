@@ -1,4 +1,4 @@
-# test2
+# Test Mini Shop
 
 ## Project setup
 ```
