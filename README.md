@@ -1,5 +1,10 @@
 # Test Mini Shop
 
+## Run Server
+```
+json-server --watch db.json
+```
+
 ## Project setup
 ```
 yarn install

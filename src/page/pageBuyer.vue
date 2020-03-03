@@ -51,7 +51,7 @@
 
 <script>
 import Header from '../components/Header.vue'
-import {mapGetters, mapMutations} from 'vuex'
+import {mapGetters, mapMutations, mapActions} from 'vuex'
 export default {
   name: 'Page_Buyer',
   components: {
@@ -63,16 +63,14 @@ export default {
     }else{
       this.$router.push('/')
     }
-    this.$store.dispatch('fetchData')
-  },
-  beforeUpdate(){
-    if(this.category){
-      this.$store.commit("FILTER_PRODUCT",this.category)
-    }else{
-      this.$store.commit("FILTER_PRODUCT")
-    }
+    this.fetchData()
   },
   watch:{
+    product(){
+      if(this.category){
+        this.$store.commit("FILTER_PRODUCT",this.category)
+      }  
+    },
     category(val){
       this.$store.commit("FILTER_PRODUCT",val)
     }
@@ -90,6 +88,9 @@ export default {
     }
   },
   methods:{
+    ...mapActions([
+      'fetchData'
+    ]),
     ...mapMutations([
       'addCart',
       'addAmount',
